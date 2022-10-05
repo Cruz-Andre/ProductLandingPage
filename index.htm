@@ -1,0 +1,139 @@
+<!-- 
+
+Hello Camper!
+
+For now, the test suite only works in Chrome! Please read the README below in the JS Editor before beginning. Feel free to delete this message once you have read it. Good luck and Happy Coding! 
+
+- The freeCodeCamp Team 
+
+-->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+		integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="CSS/styles.css">
+	<title>ProductLandingPage</title>
+</head>
+
+<body>
+	<header id="header">
+		<nav id="nav-bar" class="navbar navbar-expand-lg fixed-top bg-light">
+			<div class="container-fluid">
+				<div class="navbar-brand">
+					<img id="header-img" src="https://upload.wikimedia.org/wikipedia/commons/6/6a/Ibm_px_xt_color.jpg"
+						alt="foto de um computador IBM 5150" width="60" height="50" class="d-inline-block align-text-center">
+					XT Reparos
+				</div>
+				<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+					aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+				<div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+					<div class="navbar-nav">
+						<a class="nav-link" href="#sobre">Home</a>
+						<a class="nav-link" href="#pecas">Peças</a>
+						<a class="nav-link" href="#contato">Contato</a>
+					</div>
+				</div>
+			</div>
+		</nav>
+	</header>
+	<main>
+
+		<section id="sobre">
+			<h1>Sobre nós</h1>
+			<h2>A XT reparos oferece conserto e substituição de peças para o seu IBM 5150, 5155, 5160, 5162, 5170 e clones do PC-XT </h2>
+		</section>
+
+		<section id="pecas" class="container text-center">
+			<div class="row">
+				<div class="col">
+					<img class="img-thumbnail"
+						src="https://720adf3265.clvaw-cdnwnd.com/a67eeaaf3f4a3f0a260e5537c96c29d0/200000164-c7196c815d/IBM_5160_MB_front.JPG?ph=720adf3265"
+						alt="placa mãe de um IBM 5160">
+					<a href="#">
+						<h2 class="pecasTitulo">Placa-mãe</h2>
+					</a>
+				</div>
+				<div class="col">
+					<img class="img-thumbnail"
+						src="https://www.minuszerodegrees.net/5150/early/5150_later_diskette_adapter_3996x2054.jpg"
+						alt="placa controladora de disquete">
+					<a href="#">
+						<h2 class="pecasTitulo">Controladora</h2>
+					</a>
+				</div>
+			</div>
+
+			<div class="row">
+				<div class="col">
+					<img class="img-thumbnail"
+						src="https://upload.wikimedia.org/wikipedia/commons/0/08/5.25_inch_MFM_hard_disk_drive.JPG?20060724194156"
+						alt="Disco rígido MFM">
+					<a href="#">
+						<h2 class="pecasTitulo">Hard Disk</h2>
+					</a>
+				</div>
+				<div class="col">
+					<img class="img-thumbnail"
+						src="https://www.dosdays.co.uk/computers/IBM%20PC%20(5150)/images/tandon_tm-100-1A.jpg"
+						alt="Drive de disquete de 5 polegadas">
+					<a href="#">
+						<h2 class="pecasTitulo">Drive de disquete</h2>
+					</a>
+				</div>
+			</div>
+
+			<div class="row">
+				<div class="col">
+					<img class="img-thumbnail"
+						src="https://www.minuszerodegrees.net/rom/photo/Unknown%20VGA%20card%20-%20Main%20chip%20is%20Western%20Digital%20WD90C00-JK.png"
+						alt="Placa de vídeo">
+					<a href="#">
+						<h2 class="pecasTitulo">Placa de Vídeo</h2>
+					</a>
+					</a>
+				</div>
+				<div class="col">
+					<img class="img-thumbnail" src="https://http2.mlstatic.com/D_NQ_NP_884866-MLB51448959183_092022-W.jpg"
+						alt="placa de som">
+					<a href="#">
+						<h2 class="pecasTitulo">Placa de Som</h2>
+					</a>
+				</div>
+			</div>
+		</section>
+
+		<section id="contato">
+			<h2>Cadastre seu e-mail e receba uma lista do nosso estoque</h2>
+			<form id="form" action="https://www.freecodecamp.com/email-submit">
+				<input name="email" id="email" class="form-control" type="email" placeholder="Digite seu e-mail" required>
+				<input id="submit" class="btn btn-success" type="submit" value="Enviar E-mail" class="botao">
+			</form>
+		</section>
+
+		<section class="video">
+			<iframe id="video" width="560" height="315" src="https://www.youtube.com/embed/2FcsJiSfktI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+		</section>
+
+		<footer class="rodape">
+			<nav class="navbar bg-light">
+				<div class="container-fluid justify-content-center">
+					<span class="navbar-brand mb-0 h1"> &#169 XT Reparos - 2022</span>
+				</div>
+			</nav>
+		</footer>
+	</main>
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+	integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+	integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+
+</html>
