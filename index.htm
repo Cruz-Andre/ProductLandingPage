@@ -35,9 +35,9 @@ For now, the test suite only works in Chrome! Please read the README below in th
 				</button>
 				<div class="collapse navbar-collapse" id="navbarNavAltMarkup">
 					<div class="navbar-nav">
-						<a class="nav-link" href="#sobre">Home</a>
-						<a class="nav-link" href="#pecas">Peças</a>
-						<a class="nav-link" href="#contato">Contato</a>
+						<a class="nav-link fs-4" href="#sobre">Home</a>
+						<a class="nav-link fs-4" href="#pecas">Peças</a>
+						<a class="nav-link fs-4" href="#contato">Contato</a>
 					</div>
 				</div>
 			</div>
@@ -110,10 +110,11 @@ For now, the test suite only works in Chrome! Please read the README below in th
 		</section>
 
 		<section id="contato">
-			<h2>Cadastre seu e-mail e receba uma lista do nosso estoque</h2>
+			<h2>Cadastre seu nome e e-mail e receba uma lista de componentes em nosso estoque</h2>
 			<form id="form" action="https://www.freecodecamp.com/email-submit">
+				<input type="text" class="form-control" placeholder="Digite seu Nome" aria-label="Seu nome" required>
 				<input name="email" id="email" class="form-control" type="email" placeholder="Digite seu e-mail" required>
-				<input id="submit" class="btn btn-success" type="submit" value="Enviar E-mail" class="botao">
+				<input id="submit" class="btn btn-success" type="submit" value="Cadastrar" class="botao">
 			</form>
 		</section>
 
@@ -124,6 +125,7 @@ For now, the test suite only works in Chrome! Please read the README below in th
 		<footer class="rodape">
 			<nav class="navbar bg-light">
 				<div class="container-fluid justify-content-center">
+					<span class="navbar-brand mb-0 h1"> Rua xxxxxx, nº #, Bairro, Cidade - Estado</span>
 					<span class="navbar-brand mb-0 h1"> &#169 XT Reparos - 2022</span>
 				</div>
 			</nav>

@@ -12,6 +12,7 @@
 
 .navbar-nav {
     display: flex;
+    flex-direction: row;
     justify-content: space-around;
 }
 .nav-link {
@@ -28,7 +29,7 @@
 
 /* Sobre */
 #sobre {
-    padding-top: 85px;
+    padding-top: 120px;
     margin-bottom: 1rem;
 }
 
@@ -40,7 +41,7 @@
 }
 
 #sobre h2 {
-    font-size: 1rem;
+    font-size: 1.5rem;
     font-weight: 600;
     text-align: center;
 }
@@ -83,10 +84,11 @@ a {
     margin: 1rem auto 1rem auto;
     border: 10px solid green;
     border-radius: 20px;
-    padding: 1rem;
+    padding: 0.4rem;
 }
 
 #contato h2 {
+    text-align: center;
     margin-bottom: 0.3rem;
 }
 
